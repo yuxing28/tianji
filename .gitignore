@@ -1,0 +1,33 @@
+# Gradle / 构建产物
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# 签名与密钥
+*.jks
+*.keystore
+.env
+.env.*
+
+# 设计迭代过程素材（大文件，不入库）
+tj_*.png
+spark-output/
+vibe_images/
+b64data.json
+
+# 第三方上游仓库完整克隆（仅本地参考，不随仓库分发）
+docs/reference/_upstream/
+
+# Python 缓存
+__pycache__/
+*.pyc

@@ -1,0 +1,503 @@
+{
+  "sha": "21c584c5abe99ecb8a845392543939545cdd0d0d",
+  "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/21c584c5abe99ecb8a845392543939545cdd0d0d",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9536ef8341f09b7d0a2b63c8c3a467eae46b5a7a",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/9536ef8341f09b7d0a2b63c8c3a467eae46b5a7a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4653d1650d42f1f3b104b0cbd7657ef38a57072b",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/4653d1650d42f1f3b104b0cbd7657ef38a57072b"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8cc1cdbdd95cfd50afbc387bb38ba12d9897c1",
+      "size": 602,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/eb8cc1cdbdd95cfd50afbc387bb38ba12d9897c1"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "size": 19,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/7a60b85e148f80966a550e5ab6a762a907c69ca6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20f3b7b5d93afec593d3a23f89c030702d7dd8ac",
+      "size": 4137,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/20f3b7b5d93afec593d3a23f89c030702d7dd8ac"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e28ade16826a26bae027d5305abb9ffc7f9be423",
+      "size": 11525,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/e28ade16826a26bae027d5305abb9ffc7f9be423"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bac2c16a313c7ec8b299604b872fa35fefad4a2",
+      "size": 16566,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/7bac2c16a313c7ec8b299604b872fa35fefad4a2"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33fe107c06912d6b79dc31faab6db94094117ada",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/33fe107c06912d6b79dc31faab6db94094117ada"
+    },
+    {
+      "path": "examples/yangzhai.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868b048a770f1d4fdc3c21546c78d347b6e45b58",
+      "size": 5021,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/868b048a770f1d4fdc3c21546c78d347b6e45b58"
+    },
+    {
+      "path": "examples/zeri-example.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266eb368bc36127a4ce8fc14be8eedc58a3a0f54",
+      "size": 4976,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/266eb368bc36127a4ce8fc14be8eedc58a3a0f54"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d50aed5c349a0536300ebd32b8a976a7134b9ed2",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/d50aed5c349a0536300ebd32b8a976a7134b9ed2"
+    },
+    {
+      "path": "references/feixing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004443aea51bb470701c01040f31589ea2a08ac4",
+      "size": 8686,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/004443aea51bb470701c01040f31589ea2a08ac4"
+    },
+    {
+      "path": "references/sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4e8c602bced8f2691dc16e0593a736381bb8a0",
+      "size": 9816,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/ed4e8c602bced8f2691dc16e0593a736381bb8a0"
+    },
+    {
+      "path": "references/wuxing-ganzhi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "742c3177f208a7531477db5d73db0966f827f791",
+      "size": 5768,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/742c3177f208a7531477db5d73db0966f827f791"
+    },
+    {
+      "path": "references/zeri.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ea2491bb05851166c04b923258a5281d1441bc",
+      "size": 4880,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/b2ea2491bb05851166c04b923258a5281d1441bc"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c0e6d6d3731d4212a093407243bc807e0bc8613",
+      "size": 18,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/1c0e6d6d3731d4212a093407243bc807e0bc8613"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3e18bb478150f914f6dd0e005de6ef12cb3c3d3",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/b3e18bb478150f914f6dd0e005de6ef12cb3c3d3"
+    },
+    {
+      "path": "scripts/fengshui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98fe3b03bd97dcdf484c7b1b93930eb7cf7a4450",
+      "size": 299,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/98fe3b03bd97dcdf484c7b1b93930eb7cf7a4450"
+    },
+    {
+      "path": "scripts/kanyu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "202ca706b08a320d778699a6634b46c645194290",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/202ca706b08a320d778699a6634b46c645194290"
+    },
+    {
+      "path": "scripts/kanyu/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49905fade6a636d9341113a608ce672ea149b6ec",
+      "size": 630,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/49905fade6a636d9341113a608ce672ea149b6ec"
+    },
+    {
+      "path": "scripts/kanyu/almanac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "560a9d7bafe5ef539c92071f068640cfe6f9aad7",
+      "size": 6953,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/560a9d7bafe5ef539c92071f068640cfe6f9aad7"
+    },
+    {
+      "path": "scripts/kanyu/bazhai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf397593d11296a684f4f8ee71957852c94b50e1",
+      "size": 2806,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/bf397593d11296a684f4f8ee71957852c94b50e1"
+    },
+    {
+      "path": "scripts/kanyu/bazi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b510a2e5a5f1ddf08a9fbcd3e92aeb385f9e18c3",
+      "size": 2737,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/b510a2e5a5f1ddf08a9fbcd3e92aeb385f9e18c3"
+    },
+    {
+      "path": "scripts/kanyu/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a028c95fdb8d0d1d5fc4a4b37710b172026cd95",
+      "size": 10159,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/1a028c95fdb8d0d1d5fc4a4b37710b172026cd95"
+    },
+    {
+      "path": "scripts/kanyu/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aceb64b85f436fde81384341a78f09779c423e68",
+      "size": 5637,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/aceb64b85f436fde81384341a78f09779c423e68"
+    },
+    {
+      "path": "scripts/kanyu/feixing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28fe678ea78203218baf2034c119dac060c1b54c",
+      "size": 6118,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/28fe678ea78203218baf2034c119dac060c1b54c"
+    },
+    {
+      "path": "scripts/kanyu/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c8a8123d659c528b05fcbabde27f6e0e4aa9c18",
+      "size": 10261,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/2c8a8123d659c528b05fcbabde27f6e0e4aa9c18"
+    },
+    {
+      "path": "scripts/kanyu/zeri.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "057463606becd9283dd491765e004adab4ba281c",
+      "size": 4376,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/057463606becd9283dd491765e004adab4ba281c"
+    },
+    {
+      "path": "scripts/kanyu/zibai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d87283c438b754bcaccd7755ef0cb4ffc45bf037",
+      "size": 1959,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/d87283c438b754bcaccd7755ef0cb4ffc45bf037"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ec500ea64181ffb2ba2f588c12e7001bcc039e5",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/1ec500ea64181ffb2ba2f588c12e7001bcc039e5"
+    },
+    {
+      "path": "tests/golden",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b2ce41105341ae80c30d30dce482e55d9ba851e",
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/trees/7b2ce41105341ae80c30d30dce482e55d9ba851e"
+    },
+    {
+      "path": "tests/golden/bazhai.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9cb67eb86134f1771015106f6be424cadba2de",
+      "size": 1149,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/ec9cb67eb86134f1771015106f6be424cadba2de"
+    },
+    {
+      "path": "tests/golden/bazhai_house.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c7ea922c0fea1dd5cbdd4f9981a907fc7787d6",
+      "size": 501,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/12c7ea922c0fea1dd5cbdd4f9981a907fc7787d6"
+    },
+    {
+      "path": "tests/golden/bazi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6948f8ca269234385a253a98b262988cf3dd4f5",
+      "size": 818,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/a6948f8ca269234385a253a98b262988cf3dd4f5"
+    },
+    {
+      "path": "tests/golden/bazi_m.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f77cc4e8355a47a285accbe60b05089197c7632",
+      "size": 721,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/5f77cc4e8355a47a285accbe60b05089197c7632"
+    },
+    {
+      "path": "tests/golden/cases.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660873969a3b25a4631211b7d1e530bb5ef1a56e",
+      "size": 981,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/660873969a3b25a4631211b7d1e530bb5ef1a56e"
+    },
+    {
+      "path": "tests/golden/day.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d3fbdf86c6b981e2cb05c66b0616154c5b678a",
+      "size": 656,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/19d3fbdf86c6b981e2cb05c66b0616154c5b678a"
+    },
+    {
+      "path": "tests/golden/day_time.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af44e2bd8b29316590d23e46f33c598d12fd8f75",
+      "size": 668,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/af44e2bd8b29316590d23e46f33c598d12fd8f75"
+    },
+    {
+      "path": "tests/golden/feixing_8_zi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f934a04939ef3523036e344e01d9b9bb61958ea",
+      "size": 2327,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/5f934a04939ef3523036e344e01d9b9bb61958ea"
+    },
+    {
+      "path": "tests/golden/feixing_9_jian.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24199cb6d8888da399c0418cf02a323f288f731f",
+      "size": 2116,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/24199cb6d8888da399c0418cf02a323f288f731f"
+    },
+    {
+      "path": "tests/golden/feixing_genkun.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe2ed821164430ccaa9e84e07e47c3faa36acd2",
+      "size": 2038,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/9fe2ed821164430ccaa9e84e07e47c3faa36acd2"
+    },
+    {
+      "path": "tests/golden/feixing_month.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e43f5ba2c29f6e367b9a64ced908c1addbce8ff",
+      "size": 2410,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/0e43f5ba2c29f6e367b9a64ced908c1addbce8ff"
+    },
+    {
+      "path": "tests/golden/feixing_sit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "986d0f5db1eda2f40e6fec2bd94711cc483b2c91",
+      "size": 2002,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/986d0f5db1eda2f40e6fec2bd94711cc483b2c91"
+    },
+    {
+      "path": "tests/golden/feixing_tigua.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f566473e2dd6b799376d3c88208b75fdc9a8df30",
+      "size": 1725,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/f566473e2dd6b799376d3c88208b75fdc9a8df30"
+    },
+    {
+      "path": "tests/golden/liunian.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f29320d7f4e1f82ccc15889452c0535646b1fd5",
+      "size": 801,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/7f29320d7f4e1f82ccc15889452c0535646b1fd5"
+    },
+    {
+      "path": "tests/golden/liunian_span.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a215ce0d8753ff28d455dd12baac0ccabe7bc2",
+      "size": 1356,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/39a215ce0d8753ff28d455dd12baac0ccabe7bc2"
+    },
+    {
+      "path": "tests/golden/mingua_f.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3182c8dbc38f43d9506a00367892428e02a3a51",
+      "size": 519,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/f3182c8dbc38f43d9506a00367892428e02a3a51"
+    },
+    {
+      "path": "tests/golden/mingua_jan.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43f89346c13d7d978e67b6ac804b717951c0fc5f",
+      "size": 498,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/43f89346c13d7d978e67b6ac804b717951c0fc5f"
+    },
+    {
+      "path": "tests/golden/mingua_year.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e320453f51800b2eea7effb037d0590ed95c5",
+      "size": 573,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/d45e320453f51800b2eea7effb037d0590ed95c5"
+    },
+    {
+      "path": "tests/golden/zeri.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20754af0f92908d0b20e39ea0dd368aae279f349",
+      "size": 2507,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/20754af0f92908d0b20e39ea0dd368aae279f349"
+    },
+    {
+      "path": "tests/golden/zeri_kaiye.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7fb7b820f5afa2cd41c5d0716d1e24271f29fa0",
+      "size": 2020,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/e7fb7b820f5afa2cd41c5d0716d1e24271f29fa0"
+    },
+    {
+      "path": "tests/support.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124dd4da8b86b19536149b73c4b19d2d8ca87bc6",
+      "size": 545,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/124dd4da8b86b19536149b73c4b19d2d8ca87bc6"
+    },
+    {
+      "path": "tests/test_almanac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9de443933e3608686faf3fbf56df36c8c19841",
+      "size": 3262,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/3b9de443933e3608686faf3fbf56df36c8c19841"
+    },
+    {
+      "path": "tests/test_bazhai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edb2b735d6ae49754366e92bac643d923cab773",
+      "size": 2242,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/2edb2b735d6ae49754366e92bac643d923cab773"
+    },
+    {
+      "path": "tests/test_bazi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f83d97b05429667e299369074a4427a5486a36b",
+      "size": 1283,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/9f83d97b05429667e299369074a4427a5486a36b"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9776bd74fceaa689975803feea7daed26aa7dc",
+      "size": 4257,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/ac9776bd74fceaa689975803feea7daed26aa7dc"
+    },
+    {
+      "path": "tests/test_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7a370268722beac8b9eeed6acdfa0d082143a7",
+      "size": 3034,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/cb7a370268722beac8b9eeed6acdfa0d082143a7"
+    },
+    {
+      "path": "tests/test_feixing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bbd1bc6b813eed33e40734a067a2cc2b87fe956",
+      "size": 4263,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/9bbd1bc6b813eed33e40734a067a2cc2b87fe956"
+    },
+    {
+      "path": "tests/test_sanyuan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcdd2cd1a6830f1d9bf74a0aedc3e361a6e86eb",
+      "size": 1739,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/edcdd2cd1a6830f1d9bf74a0aedc3e361a6e86eb"
+    },
+    {
+      "path": "tests/test_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8b70cdbd60a6ac6ae9c0513bbfde86b76e1511f",
+      "size": 1684,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/a8b70cdbd60a6ac6ae9c0513bbfde86b76e1511f"
+    },
+    {
+      "path": "tests/test_version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41528565965d72352280f42140ed567bc2c0ab2",
+      "size": 663,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/b41528565965d72352280f42140ed567bc2c0ab2"
+    },
+    {
+      "path": "tests/test_zeri.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9496aa410b94ba6b2c28c4613421a1cc2d47cdd1",
+      "size": 2694,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/9496aa410b94ba6b2c28c4613421a1cc2d47cdd1"
+    },
+    {
+      "path": "tests/test_zibai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718009be10d44c09353f33119db416b2a3b23278",
+      "size": 1950,
+      "url": "https://api.github.com/repos/voidforall/fengshui.skill/git/blobs/718009be10d44c09353f33119db416b2a3b23278"
+    }
+  ],
+  "truncated": false
+}
