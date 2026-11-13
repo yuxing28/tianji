@@ -22,16 +22,6 @@
 4. **只给结构化参考**——不替代医疗/法律/财务建议，不制造焦虑；结果页统一"排盘可视化 → 结论金句 → 分维度解读 → 仅供娱乐参考"结构
 5. **密钥不出设备**——LLM API Key 由用户在设置页自行配置，仅存本机 DataStore，代码与仓库中不含任何密钥
 
-## 界面截图
-
-| 今日 · 首页 | 八字 · 排盘与 AI 解读 |
-|---|---|
-| ![今日首页](screenshots/home.jpg) | ![八字结果](screenshots/bazi.jpg) |
-
-| 塔罗 · 抽牌 | 塔罗 · AI 解读 |
-|---|---|
-| ![塔罗抽牌](screenshots/tarot-draw.jpg) | ![塔罗解读](screenshots/tarot-reading.jpg) |
-
 ## 应用下载
 
 - **APK 下载（v0.1.0）**：[GitHub Releases](https://github.com/yuxing28/tianji/releases/latest)
