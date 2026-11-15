@@ -49,11 +49,20 @@ object LlmConfigStore {
 
 object AppSettingsStore {
     private val KEY_THEME = stringPreferencesKey("theme_mode")
+    private val KEY_DYNAMIC_COLOR = androidx.datastore.preferences.core.booleanPreferencesKey("dynamic_color")
 
     fun flow(context: Context): Flow<String> =
         context.dataStore.data.map { p -> p[KEY_THEME] ?: "system" }
 
     suspend fun save(context: Context, mode: String) {
         context.dataStore.edit { p -> p[KEY_THEME] = mode }
+    }
+
+    /** Material You 动态取色开关（Android 12+ 生效），默认关闭以保留品牌配色。 */
+    fun dynamicColorFlow(context: Context): Flow<Boolean> =
+        context.dataStore.data.map { p -> p[KEY_DYNAMIC_COLOR] ?: false }
+
+    suspend fun saveDynamicColor(context: Context, enabled: Boolean) {
+        context.dataStore.edit { p -> p[KEY_DYNAMIC_COLOR] = enabled }
     }
 }

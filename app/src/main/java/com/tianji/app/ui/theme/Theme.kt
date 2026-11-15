@@ -1,11 +1,15 @@
 package com.tianji.app.ui.theme
 
+import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.MaterialExpressiveTheme
 import androidx.compose.material3.Typography
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.dynamicDarkColorScheme
+import androidx.compose.material3.dynamicLightColorScheme
+import androidx.compose.material3.expressiveDarkColorScheme
+import androidx.compose.material3.expressiveLightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -23,7 +27,24 @@ val InkSecondary = Color(0xFF3A3D42)
 val InkOutline = Color(0xFF232529)
 val InkError = Color(0xFFE5695E)
 
-private val InkColors = darkColorScheme(
+// 纸（浅色）：暖白底 + 同一青玉色；容器色全部走青绿系，替代 Material 默认的紫色系
+val PaperBackground = Color(0xFFF7F8F7)
+val PaperSurface = Color(0xFFFFFFFF)
+val PaperSurface2 = Color(0xFFEDF0F0)
+val PaperForeground = Color(0xFF191C1E)
+val PaperMuted = Color(0xFF596065)
+val PaperPrimary = Color(0xFF2E6F76)
+val PaperOnPrimary = Color(0xFFFFFFFF)
+val PaperSecondary = Color(0xFFDCE4E4)
+val PaperOutline = Color(0xFFD3D9DA)
+val PaperError = Color(0xFFA93B2C)
+
+/**
+ * 在 Material 3 Expressive 基础配色上覆盖品牌「青玉」色。
+ * Expressive base 提供 tertiary / surfaceTint / scrim 等全部色槽的现代化默认值，
+ * copy() 只覆盖项目品牌关心的槽位，其余跟随 Expressive 设计规范。
+ */
+private fun inkExpressive() = expressiveDarkColorScheme().copy(
     primary = InkPrimary,
     onPrimary = InkOnPrimary,
     primaryContainer = Color(0xFF1F3E42),
@@ -54,19 +75,7 @@ private val InkColors = darkColorScheme(
     inversePrimary = Color(0xFF2E6F76),
 )
 
-// 纸（浅色）：暖白底 + 同一青玉色；容器色全部走青绿系，替代 Material 默认的紫色系
-val PaperBackground = Color(0xFFF7F8F7)
-val PaperSurface = Color(0xFFFFFFFF)
-val PaperSurface2 = Color(0xFFEDF0F0)
-val PaperForeground = Color(0xFF191C1E)
-val PaperMuted = Color(0xFF596065)
-val PaperPrimary = Color(0xFF2E6F76)
-val PaperOnPrimary = Color(0xFFFFFFFF)
-val PaperSecondary = Color(0xFFDCE4E4)
-val PaperOutline = Color(0xFFD3D9DA)
-val PaperError = Color(0xFFA93B2C)
-
-private val PaperColors = lightColorScheme(
+private fun paperExpressive() = expressiveLightColorScheme().copy(
     primary = PaperPrimary,
     onPrimary = PaperOnPrimary,
     primaryContainer = Color(0xFFC4E4E7),
@@ -118,14 +127,26 @@ private val TianjiTypography = Typography().run {
 }
 
 @Composable
-fun TianjiTheme(themeMode: String = "system", content: @Composable () -> Unit) {
+fun TianjiTheme(
+    themeMode: String = "system",
+    dynamicColor: Boolean = false,
+    content: @Composable () -> Unit,
+) {
     val dark = when (themeMode) {
         "dark" -> true
         "light" -> false
         else -> isSystemInDarkTheme()
     }
-    MaterialTheme(
-        colorScheme = if (dark) InkColors else PaperColors,
+    val colorScheme = when {
+        // Material You：Android 12+ 从壁纸提取动态配色
+        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
+            val context = LocalContext.current
+            if (dark) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+        }
+        else -> if (dark) inkExpressive() else paperExpressive()
+    }
+    MaterialExpressiveTheme(
+        colorScheme = colorScheme,
         typography = TianjiTypography,
         content = content,
     )

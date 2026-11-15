@@ -47,7 +47,8 @@ class MainActivity : ComponentActivity() {
         )
         setContent {
             val themeMode by AppSettingsStore.flow(this).collectAsState(initial = "system")
-            TianjiTheme(themeMode) {
+            val dynamicColor by AppSettingsStore.dynamicColorFlow(this).collectAsState(initial = false)
+            TianjiTheme(themeMode, dynamicColor) {
                 TianjiApp()
             }
         }

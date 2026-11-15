@@ -990,6 +990,7 @@ fun SettingsScreen(onBack: () -> Unit, onHistory: () -> Unit) {
     val scope = rememberCoroutineScope()
     val saved by remember { LlmConfigStore.flow(context) }.collectAsState(initial = LlmConfig())
     val themeMode by remember { AppSettingsStore.flow(context) }.collectAsState(initial = "system")
+    val dynamicColor by remember { AppSettingsStore.dynamicColorFlow(context) }.collectAsState(initial = false)
     var provider by remember(saved.provider) { mutableStateOf(saved.provider) }
     var baseUrl by remember(saved.baseUrl) { mutableStateOf(saved.baseUrl) }
     var apiKey by remember(saved.apiKey) { mutableStateOf(saved.apiKey) }
@@ -1140,6 +1141,17 @@ fun SettingsScreen(onBack: () -> Unit, onHistory: () -> Unit) {
                     )
                 }
             }
+            Spacer(Modifier.height(8.dp))
+            FilterChip(
+                selected = dynamicColor,
+                onClick = { scope.launch { AppSettingsStore.saveDynamicColor(context, !dynamicColor) } },
+                label = { Text("Material You 动态取色") },
+            )
+            Text(
+                "开启后跟随系统壁纸配色（Android 12+ 生效），关闭使用天机默认青玉配色。",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
         Spacer(Modifier.height(12.dp))
         ModuleCard(Icons.Outlined.History, "解读历史", "过往的 AI 解读记录", onHistory)
